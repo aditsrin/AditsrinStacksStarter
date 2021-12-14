@@ -1,0 +1,17 @@
+name: stacks-startererererADit
+description: This is a stack to create a stack adit.
+branding:
+  icon: layers
+  color: blue
+
+inputs:
+  - name: DEV_SPN_ID
+    description: SPN ID for Dev deployments
+    is-secret: true
+    
+configs:
+  repo-metadata:
+    parameters:
+      topics:
+        - hello
+        - hi
